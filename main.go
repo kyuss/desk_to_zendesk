@@ -1,10 +1,10 @@
 package main
 
 import (
-	"flag"
-	log "github.com/cihub/seelog"
 	"./desk"
 	"./zendesk"
+	"flag"
+	log "github.com/cihub/seelog"
 	"os"
 )
 

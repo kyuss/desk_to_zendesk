@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"./desk"
 	"./zendesk"
+	"fmt"
 	"strconv"
 	"strings"
 )

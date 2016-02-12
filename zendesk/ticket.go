@@ -71,7 +71,7 @@ type TicketList struct {
 }
 
 func (client *Client) GetTicketByExternalId(id int64) (*Ticket, error) {
-	url := fmt.Sprintf("%s/tickets.json?external_id=%d",ZendeskURL, id)
+	url := fmt.Sprintf("%s/tickets.json?external_id=%d", ZendeskURL, id)
 	resp, err := client.do("GET", url, "application/json", nil)
 	if err != nil {
 		return nil, err

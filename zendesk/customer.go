@@ -31,7 +31,7 @@ func (client *Client) CreateCustomer(customer *Customer) (*Customer, error) {
 	if err != nil {
 		return nil, err
 	}
-	url := fmt.Sprintf("%s/users.json",ZendeskURL)
+	url := fmt.Sprintf("%s/users.json", ZendeskURL)
 	resp, err := client.do("POST", url, "application/json", bytes.NewBuffer(body))
 
 	if err := readError(resp); err != nil {

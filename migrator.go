@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
-	log "github.com/cihub/seelog"
 	"./desk"
 	"./zendesk"
+	"fmt"
+	log "github.com/cihub/seelog"
 	"strings"
 )
 
