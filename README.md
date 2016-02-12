@@ -1,14 +1,8 @@
+Desk To Zendesk migration
+=============
+```
 Usage of ./desk_to_zendesk:
-
-  -page string
-  
-    	page
-    	
-  -path string
-  
-    	path
-    	
-  -per_page string
-  
-    	Per Page
-    	
+  -page string (desk cases page)
+  -per_page int (how many cases per page)
+  -path string (path to save desk attachments)
+```
