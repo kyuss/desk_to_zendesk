@@ -5,7 +5,7 @@ import (
 
 )
 
-const DEFAULT_ASSIGNEE = 3414708898
+const DEFAULT_ASSIGNEE = 3341625747
 
 var assigneeMap = map[string]int64{
 	"assignee@email.com":    3341625747,	
